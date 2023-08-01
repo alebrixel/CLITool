@@ -25,7 +25,7 @@ public class LiveQueryHandler {
                     outputMode = true;
                 } else if (args[i].matches("-\\d+")) {
                     customInterval = true;
-                    interval = Integer.parseInt(args[i].substring(1)); // Extract the number from the argument
+                    interval = Integer.parseInt(args[i].substring(1)); // Extract the number from the argument to use as seconds
                 }
             } else {
                 startIndex = i;
