@@ -1,8 +1,6 @@
 import java.io.IOException;
 import java.net.HttpURLConnection;
 import java.net.URL;
-import java.time.LocalDateTime;
-import java.time.format.DateTimeFormatter;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -12,6 +10,7 @@ public class WebsiteHandler {
     public WebsiteHandler() {
         datastore = new HashMap<>();
     }
+
     /**
      * Fetches data from a website and handles the response.
      * @param url The URL of the website to fetch data from.

@@ -33,7 +33,6 @@ public class Datastore {
                 writer.newLine(); // Write a new line separator
             }
             writer.flush(); // Flush the buffer to ensure data is immediately written to the file
-            System.out.println("Datastore saved to datastore.txt");
         } catch (IOException e) {
             System.out.println("Error occurred while saving datastore to file: " + e.getMessage());
         }

@@ -39,7 +39,7 @@ public class Main {
      * Prints the usage instructions for the command-line application.
      */
     public static void printUsageInstructions() {
-        System.out.println("Usage: java Main <command> [options] [URLs]");
+        System.out.println("Usage: java main.java.Main <command> [options] [URLs]");
         System.out.println("Commands:");
         System.out.println("  --fetch [URLs]               Fetch data from the specified URLs");
         System.out.println("  --fetch --output [URLs]      Fetch data from the URLs and show output");
@@ -83,7 +83,7 @@ public class Main {
                     writer.write(line);
                     writer.newLine();
                 }
-                System.out.println("Datastore backup created and saved to " + backupFileName);
+                System.out.println("main.java.Datastore backup created and saved to " + backupFileName);
             }
         } catch (IOException e) {
             System.out.println("Error occurred while creating the datastore backup: " + e.getMessage());

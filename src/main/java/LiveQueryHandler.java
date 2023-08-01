@@ -49,7 +49,7 @@ public class LiveQueryHandler {
     /**
      * Runs the live query with a custom interval based on the provided command-line argument.
      * @param args The command-line arguments passed to the program.
-     * @param websiteHandler The instance of the WebsiteHandler class to handle fetching data from websites.
+     * @param websiteHandler The instance of the main.java.WebsiteHandler class to handle fetching data from websites.
      */
     private void runLiveQueryWithCustomInterval(String[] args, WebsiteHandler websiteHandler) {
         ScheduledExecutorService scheduler = Executors.newScheduledThreadPool(1);
@@ -65,7 +65,7 @@ public class LiveQueryHandler {
     /**
      * Runs the live query with the default interval (5 seconds).
      * @param args The command-line arguments passed to the program.
-     * @param websiteHandler The instance of the WebsiteHandler class to handle fetching data from websites.
+     * @param websiteHandler The instance of the main.java.WebsiteHandler class to handle fetching data from websites.
      */
     private void runLiveQueryWithDefaultInterval(String[] args, WebsiteHandler websiteHandler) {
         while (true) {

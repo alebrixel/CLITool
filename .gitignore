@@ -1,4 +1,5 @@
 ### IntelliJ IDEA ###
+target/
 out/
 !**/src/main/**/out/
 !**/src/test/**/out/
@@ -27,3 +28,8 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+### Created Files ###
+/datastore_backup*
+/datastore.txt
+/target/your-cli-tool-1.0.0.jar
