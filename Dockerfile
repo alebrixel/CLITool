@@ -1,4 +1,4 @@
-FROM adoptopenjdk:17-jdk
+FROM openjdk:17-oracle
 
 WORKDIR /app
 
