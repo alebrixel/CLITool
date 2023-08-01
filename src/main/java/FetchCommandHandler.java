@@ -17,7 +17,7 @@ public class FetchCommandHandler {
         // Start fetching data from websites based on the output mode
         for (int i = outputMode ? 2 : 1; i < args.length; i++) {
             String url = args[i];
-            if (!url.startsWith("https://")) {
+            if (!url.startsWith("https://")) { //Check if the url starts with "https://"
                 url = "https://" + url;
             }
             websiteHandler.fetchDataFromWebsite(url, outputMode);
