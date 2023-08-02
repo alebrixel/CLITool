@@ -39,7 +39,7 @@ public class Main {
      * Prints the usage instructions for the command-line application.
      */
     public static void printUsageInstructions() {
-        System.out.println("Usage: java main.java.Main <command> [options] [URLs]");
+        System.out.println("Usage: java Main <command> [options] [URLs]");
         System.out.println("Commands:");
         System.out.println("  --fetch [URLs]               Fetch data from the specified URLs");
         System.out.println("  --fetch --output [URLs]      Fetch data from the URLs and show output");
@@ -48,6 +48,7 @@ public class Main {
         System.out.println("  --live --output [URLs]       Perform live query with output and default interval");
         System.out.println("  --live --output -<seconds> [URLs] Perform live query with output and custom interval");
         System.out.println("  --history                    Show history of fetched data");
+        System.out.println("  --backup                     Create a .csv file of fetched data");
     }
 
     /**
